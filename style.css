@@ -1,0 +1,24 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: blue;
+}
+.container
+{
+    width:500px;
+    height:500px;
+    border:1px solid #000;
+    margin:100px auto;
+}
+.box1
+{
+    width:100px;
+    height:100px;
+    background-color: blueviolet;
+    margin:200px auto;
+}
