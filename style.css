@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Bebas+Neue&family=Montserrat:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
 *
 {
     margin:0;
@@ -6,19 +8,101 @@
 }
 body
 {
-    background-color: rgb(18, 207, 106);
+    width:100%;
 }
 .container
 {
-    width:500px;
-    height:500px;
-    border:1px solid #000;
-    margin:100px auto;
+    width:100%;
+    height:1500px;
+    border:1px solid rgb(114, 106, 106);
 }
-.box1
+.header
 {
-    width:100px;
-    height:100px;
-    background-color: rgb(196, 226, 24);
-    margin:200px auto;
+    position: fixed;
+    width:100%;
+    height:200px;
+    background-color:rgb(19, 47, 94);
+}
+.header .header-up
+{
+    width:100%;
+    height:50%;
+}
+.header .header-up .logo
+{
+    width:30%;
+    height:50px;
+    padding:10px 100px;
+}
+.header .header-up .logo span
+{
+    text-align: center;
+    font-size:50px;
+    font-family: 'Akaya Telivigala', cursive;;
+    color:#fff;
+}
+.header .header-down 
+{
+    width:100%;
+    height:50%;
+}
+.header .header-down .menu
+{
+    width:100%;
+    height:100%;
+    background: linear-gradient(90deg,rgb(148, 186, 235),rgb(12, 113, 213),rgb(148, 186, 235));
+}
+.menu ul
+{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-top: 20px;
+    align-items: center;
+}
+.menu ul li
+{
+    display: block;
+    width:150px;
+    height:50px;
+    margin-left: 20px;
+    font-size:30px;
+    color:#fff
+}
+.main
+{
+    width:100%;
+    height:1500px;
+    background-image: url('https://ssl.tzoo-img.com/images/tzoo.14993.0.1176368.MontegoBay_jamaica_iStock-1320959189.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main .section1 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:50%;
+}  
+.main .section1 .section1-head
+{
+   
+    width:500px;
+    height:300px;
+    margin-top:300px;
+    font-family:'viga',serif ;
+    text-align: center;
+}
+.main .section1 .section1-head .head-1
+{
+    font-size:30px;
+    color:#fff
+}
+.main .section1 .section1-head .head-2
+{
+    font-size:45px;
+    color:#fff;
+    margin-top: 20px;
+    
 }
