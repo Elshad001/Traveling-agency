@@ -80,6 +80,7 @@ body
 .main .section1 
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width:100%;
@@ -87,9 +88,8 @@ body
 }  
 .main .section1 .section1-head
 {
-   
     width:500px;
-    height:300px;
+    height:150px;
     margin-top:300px;
     font-family:'viga',serif ;
     text-align: center;
@@ -104,5 +104,84 @@ body
     font-size:45px;
     color:#fff;
     margin-top: 20px;
-    
+}
+.main .section1  .section1-titles
+{
+    display: flex;
+    width:1000px;
+    height:50px;
+}
+.main .section1  .section1-titles .title1
+{
+    display:inline-block;
+    width:250px;
+    height:50px;
+    padding: 10px 50px;
+    background-color: #fff;
+    color:#555;
+    border-right: 1px solid #ccc;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: 'Montserrat',serif;
+    font-size:16px;
+    font-weight: bold;
+    text-align: center;
+}
+.main .section1  .section1-titles .title2
+{
+    display:inline-block;
+    width:250px;
+    height:50px;
+    background-color: #fff;
+    color:#333;
+    border-right: 1px solid #ccc;
+    padding:10px 50px;
+    font-family: 'Montserrat',serif;
+    font-size: 16px;
+    color:#555;
+    font-weight: bold;
+    text-align: center;
+}
+.title1  ul
+{
+    width:100px;
+    height:100px;
+    background-color: #fff;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.title1 ul li
+{
+    margin-top: 5px;
+}
+.main .section1  .section1-titles .title3
+{
+    display:inline-block;
+    width:250px;
+    height:50px;
+    background-color: #fff;
+    color:#555;
+    border-right: 1px solid #ccc;
+    padding:10px 50px;
+    font-family: 'Montserrat',serif;
+    font-size:16px;
+    font-weight: bold;
+    text-align: center;
+}
+.main .section1  .section1-titles .title4
+{
+    display:inline-block;
+    width:250px;
+    height:50px;
+    padding: 10px 30px;
+    background-color: rgb(232, 152, 15);
+    color:#555;
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Montserrat',serif;
+    font-size:16px;
+    font-weight: bold;
+    text-align:left;
 }
