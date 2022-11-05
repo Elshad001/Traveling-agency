@@ -13,7 +13,7 @@ body
 .container
 {
     width:100%;
-    height:1500px;
+    height:2000px;
     border:1px solid rgb(114, 106, 106);
 }
 .header
@@ -72,7 +72,7 @@ body
 .main
 {
     width:100%;
-    height:1500px;
+    height:2000px;
     background-image: url('https://ssl.tzoo-img.com/images/tzoo.14993.0.1176368.MontegoBay_jamaica_iStock-1320959189.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -184,4 +184,116 @@ body
     font-size:16px;
     font-weight: bold;
     text-align:left;
+}
+.section2 .section2-head
+{
+    width:300px;
+    height:100px;
+    margin:20px auto;
+    text-align: center;
+}
+.section2 .section2-head h2
+{
+    font-family:'viga',serif;
+    font-size: 30px;
+}
+.section2 .section2-head h4
+{
+    font-family:'viga',serif;
+    font-size:20px;
+    margin-top: 10px;
+}
+.card-containers
+{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    justify-content: space-around;
+    width:1300px;
+    height:500px;
+}
+.card1
+{
+    width:350px;
+    height:350px;
+    margin-top: 20px;
+    background-color: #eee;
+}
+.card1 .card1-img
+{
+    width:350px;
+    height:280px;
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/10/2f/fe/united-kingdom.jpg?w=700&h=500&s=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card1 .card1-info
+{
+    display: flex;
+    width:350px;
+    height:70px;
+    padding: 20px;
+}
+
+.card1 .card1-info .country
+{
+    width:70%;
+    height:70px;
+    font-family: 'Montserrat',serif;
+    font-size: 21px;
+    color:#333;
+}
+.card1 .card1-info .money
+{
+    width:30%;
+    height:70px;
+    font-family: 'Montserrat',serif;
+    font-size: 21px;
+    color:#333;
+}
+.card1 .card2-img
+{
+    width:350px;
+    height:280px;
+    background-image: url('https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/static/optimized/rev-939cb5a/images/cities-in-spain-1600x1067.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card1 .card3-img
+{
+    width:350px;
+    height:280px;
+    background-image: url('https://unicapp.co.uk/wp-content/uploads/2021/11/Istanbul_Turkey_Houses_505904.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card1 .card4-img
+{
+    width:350px;
+    height:280px;
+    background-image: url('https://media.timeout.com/images/105761603/750/422/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card1 .card5-img
+{
+    width:350px;
+    height:280px;
+    background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/170606121226-japan---travel-destination---shutterstock-230107657-super-tease.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card1 .card6-img
+{
+    width:350px;
+    height:280px;
+    background-image: url('https://i.natgeofe.com/k/42e832f5-fd48-43ff-b338-091bdf4048ca/india-tajmahal_16x9.jpg?w=1200');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
